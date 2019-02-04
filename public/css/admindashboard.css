@@ -1,0 +1,298 @@
+.box-title {
+	color: white !important;
+}
+
+.box-content div {
+	display: inline;
+}
+
+.box-content .box-icon {
+	float: right;
+	font-size: 55px;
+	color: white;
+}
+
+.news-box .news-header {
+	border-bottom: 2px solid black;
+}
+
+.news-header-content div {
+	display: inline;
+}
+
+.news-primary {
+	font-size: 25px;
+}
+
+.news-more {
+	float: right;
+}
+
+.news-more:hover {
+	padding-right: 25px;
+	opacity: 1;
+  	right: 0;
+   	transition: 0.5s;
+}
+
+.news-more .view-icon {
+	opacity: 0;
+}
+.news-more:hover .view-icon {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+
+.news-body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.news-body div {
+	display: inline;
+}
+
+.news-body .news-picture img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.news-picture img:hover {
+
+	margin-top: 7px;
+	-webkit-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
+	        transition: 0.5s;
+
+}
+
+.news-body .news-content{
+	padding-left: 10px;
+	position: absolute;
+	top: 50px;
+}
+
+.news-content .news-title {
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.news-content .news-description {
+	font-size: 15px;
+}
+
+.student-box .box-header {
+	background-color: #325a88;
+}
+
+
+
+
+.student-box:hover .box-header {
+	background-color: white;
+	color: #325a88;
+	transition: 0.5s;
+}
+
+.student-box:hover .fa-graduation-cap {
+	color: #325a88;
+	transition: 0.5s;
+}
+
+.student-box:hover .box-title h1 {
+	color: #325a88;
+}
+
+.student-box:hover .box-body {
+	color: white;
+	background-color: #325a88;
+	transition: 0.5s;
+}
+
+.student-box:hover .box-view {
+	color: white;
+	padding-right: 25px;
+	opacity: 1;
+  	right: 0;
+   	transition: 0.3s;
+}
+
+.student-box:hover {
+	margin-top: 7px;
+	-webkit-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
+	        transition: 0.5s;
+}
+
+
+
+.teacher-box .box-header {
+	background-color: #00a65a;
+}
+
+.teacher-box:hover .box-header {
+	background-color: white;
+	color: #00a65a;
+	transition: 0.5s;
+}
+
+.teacher-box:hover .fa-users {
+	color: #00a65a;
+	transition: 0.5s;
+}
+
+.teacher-box:hover .box-title h1 {
+	color: #00a65a;
+}
+
+.teacher-box:hover .box-body {
+	color: white;
+	background-color: #00a65a;
+	transition: 0.5s;
+}
+
+.teacher-box:hover .box-view {
+	color: white;
+	padding-right: 25px;
+	opacity: 1;
+  	right: 0;
+   	transition: 0.3s;
+}
+
+.teacher-box:hover {
+	margin-top: 7px;
+	-webkit-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
+	        transition: 0.5s;
+}
+
+
+
+
+.subject-box .box-header {
+	background-color: #f39c11;
+}
+
+.subject-box:hover .box-header {
+	background-color: white;
+	color: #f39c11;
+	transition: 0.5s;
+}
+
+.subject-box:hover .fa-book {
+	color: #f39c11;
+	transition: 0.5s;
+}
+
+.subject-box:hover .box-title h1 {
+	color: #f39c11;
+}
+
+.subject-box:hover .box-body {
+	color: white;
+	background-color: #f39c11;
+	transition: 0.5s;
+}
+
+.subject-box:hover .box-view {
+	color: white;
+	padding-right: 25px;
+	opacity: 1;
+  	right: 0;
+   	transition: 0.3s;
+}
+
+
+.subject-box:hover {
+	margin-top: 7px;
+	-webkit-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
+	        transition: 0.5s;
+}
+
+
+
+
+.section-box .box-header {
+	background-color: #dd4c39;
+}
+
+.section-box:hover .box-header {
+	background-color: white;
+	color: #dd4c39;
+	transition: 0.5s;
+}
+
+.section-box:hover .fa-list {
+	color: #dd4c39;
+	transition: 0.5s;
+}
+
+.section-box:hover .box-title h1 {
+	color: #dd4c39;
+}
+
+.section-box:hover .box-body {
+	color: white;
+	background-color: #dd4c39;
+	transition: 0.5s;
+}
+
+.section-box:hover .box-view {
+	color: white;
+	padding-right: 25px;
+	opacity: 1;
+  	right: 0;
+   	transition: 0.3s;
+}
+
+
+
+.section-box:hover {
+	margin-top: 7px;
+	-webkit-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 55px -14px rgba(0,0,0,0.75);
+	-webkit-transition: 0.5s;
+	   -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	     -o-transition: 0.5s;
+	        transition: 0.5s;
+}
+
+
+
+
+
+
+
+.box-view {
+	color: black;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.1s;
+}
